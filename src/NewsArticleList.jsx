@@ -28,7 +28,7 @@ class NewsArticleList extends React.Component {
               <NewsArticle
                 name={name}
                 description={description}
-                imageUrl={image.thumbnail.contentUrl}
+                imageUrl={image?.thumbnail?.contentUrl}
                 url={url}
               />
             </div>
