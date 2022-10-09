@@ -6,11 +6,11 @@ function NavBar({ navItems, userName, onUserNameChange }) {
       <div className="container d-flex align-items-center">
         <div className="d-flex align-items-center me-4">
           <div className="logo-container me-2 bg-primary rounded d-flex justify-content-center align-items-center">
-            <span className="text-white fs-3 fw-bold my-0">
+            <span role="button" onClick={navItems[0].onClick} className="text-white fs-3 fw-bold my-0">
               B
             </span>
           </div>
-          <span className="fs-5 my-0">
+          <span role="button" onClick={navItems[0].onClick} className="fs-5 my-0">
             Media Library
           </span>
         </div>
