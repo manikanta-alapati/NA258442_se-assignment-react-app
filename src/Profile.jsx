@@ -5,7 +5,7 @@ function Profile({ name, onNameChange, about, onAboutChange }) {
   return (
     <div className="container d-flex p-3 bg-light rounded border">
       <img
-        src="https://se-assignment-2.s3.us-west-2.amazonaws.com/dhoni.jpg"
+        src="https://se-assignment-2.s3.us-west-2.amazonaws.com/WhatsApp+Image+2022-10-09+at+6.38.09+PM.jpeg"
         className="profile-image rounded border"
         alt={name}
       />

@@ -12,7 +12,7 @@ class App extends React.Component {
       currentSection: "news",
       name: "Manikanta Alapati",
       about:
-        "I am Naga Sai Manikanta Alapati and I am pursuing my masters in computer Science  in University At Albany and I have taken software-Engineering course for this semester.",
+        "Hii , I am Manikanta Alapati and I am pusuring masters in computer science in University At Albany.",
     };
     this.saveStateToLocalStorage = this.saveStateToLocalStorage.bind(this);
   }
